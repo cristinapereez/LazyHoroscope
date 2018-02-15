@@ -22,21 +22,21 @@ cout<<"Welcome, "<<first[0]<<"."<<last[0]<<"., here is your fortune...\n";
   lucky = first.length();
   char letter = first[0];
   
-cout<<"Your lucky number is "<<lucky<<endl;
+cout<<"your lucky number is "<<lucky<<endl;
 if(letter == 'a'||letter == 'A'||letter == 'e'||letter == 'E'||letter=='I'||letter=='i'||letter=='o'||letter=='O'||letter=='u'||letter=='U')
 {
-cout<<"You are destined to be famous!"<<endl;
+cout<<"you are destined to be famous!"<<endl;
 }
 else
 { 
-cout<<"You should keep a low profile"<<endl;
+cout<<"you should keep a low profile."<<endl;
 }
 char letter2 = last[last.length()-1];
 if(letter2 == 'a'||letter2=='e'||letter2 == 'i'||letter=='o'||letter=='u')
 {
-cout<<"You have already met your true love."<<endl;
+cout<<"you have already met your true love."<<endl;
 }
-cout<<"Have a good day!"<<endl;
+cout<<"have a good day!"<<endl;
 
   return 0;
 }
